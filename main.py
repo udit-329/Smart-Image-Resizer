@@ -22,7 +22,7 @@ root.title("Smart Image Resizer")
 
 #function to open a file dialog and return a list of paths to selected images
 def open_file():
-    root.filename = filedialog.askopenfilenames(initialdir = "C:/Users/ukapo/Desktop",
+    root.filename = filedialog.askopenfilenames(initialdir = "C:/Users",
                                                 title = "Select a file",
                                                 filetypes = (("images","*.png *.jpg *.jpeg"), ("png files", "*.png"), ("jpg files", "*.jpg *.jpeg")))
     return root.filename
