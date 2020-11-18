@@ -7,6 +7,6 @@ A python based tool to convert all selected images to a standard size and format
 4) A new folder will be created in that location with your new image files.
 
 
-*Requires the Pillow, Tkinker and os libraries.
+
 
 
